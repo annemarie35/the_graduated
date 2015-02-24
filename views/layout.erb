@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fizz Buzz</title>
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <!--Google Web Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:700' rel='stylesheet' type='text/css'> <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+  </head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+       <ul class="nav navbar-nav">
+          <li class="active"><a href="/index">Index<span class="sr-only">(current)</span></a></li>
+          <li><a href="/road_map">Feuille de route</a></li>
+          <li><a href="/about">A propos</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Programmes <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/fizzbuzz">FizzBuzz</a></li>
+                <li><a href="/roman_to_nb">Roman to number</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://github.com/annemarie35" class="icones"><i class="fa fa-github"></i></a></li>
+          <li><a href="#" class="icones"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/LoozBonita" class="icones"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#" class="icones"><i class="fa fa-instagram" ></i></a></li>
+    <div>
+  </nav>
+
+
+
+    <%= yield %>
+
+     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

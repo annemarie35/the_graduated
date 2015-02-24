@@ -1,0 +1,46 @@
+body {
+  font-family:verdana, sans-serif;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.image {
+	border-radius: 50%;
+}
+
+.shadow {
+	box-shadow: 5px 5px 3px black;
+}
+
+h1 {
+	color:;
+	font-size: ;
+	font-family: ;
+}
+
+#my-footer a {
+  color: lightgrey;
+}
+#my-footer a:hover {
+  color: white;
+}
+
+#footer{
+  padding: 20px;
+  background: #404040;
+  color: white;
+}
+
+.icones {
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 2em;
+}
+
+
+table {
+display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: gray; }
+
