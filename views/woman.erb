@@ -1,3 +1,11 @@
-<h1> <%= @woman.firstname %></h1>
+<h1> <%= @woman.firstname + " " + @woman.lastname%> </h1>
+
+<span>Ici on pourrait avoir des détails sur chaque personne</span>
+<img src="https://media.licdn.com/media/AAEAAQAAAAAAAAGsAAAAJGQ2NTkyOWU2LTY1MTAtNDc3ZC1iZDMzLTU0NzUwMzcyNmViOA.jpg" />
+<ul>
+  <li>Photo</li>
+  <li>Liste de données sur la personne</li>
+</ul>
 
 <a href="/woman/<%= @woman.id %>/edit">Edit</a>
+<span>Ce lien d'édition ne serait visible que par l'admin</span>

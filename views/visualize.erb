@@ -1,9 +1,9 @@
 <h1>Niveau de diplômes</h1>
 
 <ul>
-<li>Ecole de commerce : 78 %</li>li>
+<li>Ecole de commerce : 78 %</li>
 <li>Ecole d'ingénieur : 17 %</li>
-<li>Niveau III: 3 %<li>
+<li>Niveau III: 3 %</li>
 <li>Niveau II : 1,1 %</li>
 <li>Niveau Bac : 1 % </li>
 <li>Sans diplôme</li>
@@ -16,10 +16,10 @@
 <h1>Listes des personnes et de leurs diplômes</h1>
 
 <table class="table">
-   <caption>TA DAM LIST</caption>
+   <caption>LISTE DES DONNEES</caption>
       <thead>
          <tr>
-			<th>Date</th>
+			      <th>Date</th>
             <th>Nom</th>
             <th>Prénom</th>
             <th>Diplôme<th>
@@ -29,7 +29,7 @@
       <% @women.each do |woman| %>
       <tr>
 				<th><%= woman.created_at %></th>
-        <th><a href="/woman/><%= woman.id %>"><%= woman.firstname %></a></th>
+        <th><a href="/woman/<%= woman.id %>"><%= woman.firstname %></a></th>
         <th><%= woman.lastname %></th>
         <th><%= woman.niveau %></th>
         <th><a href="/woman/<%= woman.id %>/edit">Edit</a></th>
