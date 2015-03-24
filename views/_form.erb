@@ -1,0 +1,9 @@
+<form action='' method="post">
+	<label for="firstname">Prénom</label><br>
+	<input type="text" id="firstname" name="woman[firstname]" value="<%= @woman.firstname %>"><br>
+	<label for="lastname">Nom</label><br>
+	<input type="text" id="lastname" name="woman[lastname]" value="<%= @woman.lastname %>"><br>
+	<label placeholder="Ex : Niveau d'études">Niveau d études</label><br>
+	<textarea id="niveau" name="woman[niveau]" rows="10" cols="50"><%= @woman.niveau %></textarea> <br>
+	<input type="submit" value="Envoyer">
+</form>
