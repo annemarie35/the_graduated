@@ -20,6 +20,9 @@ Les femmes du numérique et des startups qui sont médiatisées sont-elles dipl�
 
 Objectif : d’abord vérifier une hypothèse et voir les résultats dans une démarche scientifique.
 
+Note du 28/05/2020, une étude existe !
+Flécher Marion, « Des inégalités d’accès aux inégalités de succès : enquête sur les fondateurs et fondatrices de start-up », Travail et emploi, 2019/3 (n° 159), p. 39-68. URL : https://www.cairn.info/revue-travail-et-emploi-2019-3-page-39.htm
+
 
 
 ## Pré-requis
